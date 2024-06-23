@@ -1,6 +1,6 @@
 name: Deploy GitHub repository to cPanel
 on:
-  pull_request_target:
+  push:
     branches:
       - master
 jobs:
