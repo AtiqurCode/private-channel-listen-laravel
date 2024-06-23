@@ -1,4 +1,4 @@
-name: Deploy GitHub repository to cPanel
+name: Deploy GitHub repository to cPanel update
 on:
   pull_request_target:
     branches:
