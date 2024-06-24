@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/hi-testing', function () {
+    return response()->json([
+        'message' => 'Hi, this is a testing route'
+    ], 200);
+});
